@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #374151;
+  --off-white: #f3f4f6;
+  --dark-gray: #6b7280;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: "Montserrat", sans-serif;;
+  text-align: center;
+  width: 100%;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header */
+
+header {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: initial;
+}
+
+nav {
+  text-align: right;
+  padding: 1rem;
+}
+
+nav > a {
+  padding: 2rem 0.5rem;
+  color: white;
+}
+
+/* Main */
+
+main {
+  margin: 0 0 7rem;
+}
+
+main h1 {
+  margin: 2.5rem;
+}
+
+/*  Input */
+
+.input-label {
+  font-size: larger;
+  color: var(--primary-color);
+  width: 50%;
+}
+
+.input-label p {
+  font-size: larger;
+  margin: 0.5rem;
+}
+
+.input-text {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+.btn-check {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
+}
+
+.output {
+  font-size: x-large;
+  margin: 1rem;
+}
+
+/* Footer */
+
+/* footer {
+  text-align: center;
+  
+  background-color: var(--primary-color);
+}
+
+footer p {
+  font-size: large;
+  text-align: center;
+  color: white;
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+  color: #fff;
+}
+
+img {
+  width: 40px;
+  padding: 1rem 0.2rem;
+} */
+
+footer {
+  background-color: #374151;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+  margin-top: 2rem;
+  padding-top: 2rem ;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+
+.footer-list {
+  margin-top: 2rem;
+  margin: 0rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+  margin: auto;
+  align-items: center;
+}
+
+img {
+  width: 60px;
+  padding: 0.5rem;
+}
