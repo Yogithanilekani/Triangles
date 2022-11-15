@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #374151;
+  --off-white: #f3f4f6;
+  --dark-gray: #6b7280;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px auto;
+  max-width: 100%;
+  width: 100%;
+  background-color:white;
+}
+
+
+.quiz-main {
+  margin: 1rem auto;
+  width: 100%;
+  text-align: center;
+}
+
+.question-container {
+  width: 85%;
+  margin: 1rem auto;
+  font-size: larger;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.question-container p {
+  margin: 1rem 0;
+}
+
+footer {
+  background-color: #374151;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+  margin-top: 2rem;
+  padding-top: 2rem ;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+
+.footer-list {
+  margin-top: 2rem;
+  margin: 0rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+  margin: auto;
+  align-items: center;
+}
+
+img {
+  width: 60px;
+  padding: 0.5rem;
+}
