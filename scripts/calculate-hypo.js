@@ -12,7 +12,8 @@ function calculateHypotenuse() {
     Number(sides[0].value),
     Number(sides[1].value)
   );
-  const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
+  const lengthOfHypotenuse1 = Math.sqrt(sumOfSquares);
+  const lengthOfHypotenuse = lengthOfHypotenuse1.toFixed();
   outputEl.innerText = "The length of hypotenuse is " + lengthOfHypotenuse;
 }
 
