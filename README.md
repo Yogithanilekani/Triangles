@@ -1,7 +1,7 @@
 # Triangles
  using vanillajs
 
-<b>How to use:<br>
+<b>How to use:</b><br>
 Click on section you want to open.
 <br>
 Play Quiz: <br>
@@ -13,7 +13,7 @@ Enter values in input fields and click on submit to check results.<br>
 Calculate Area: <br>
 Enter values in input fields and click on submit to check results.<br>
 
-<b>Programming Language:<br>
+<b>Programming Language:</b><br>
 html<br>
 css<br>
 javascript<br>
